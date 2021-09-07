@@ -7,6 +7,7 @@
 - Deployment strategy :
   - GitHub page
 - Team challenge : `solo`
+- data : https://github.com/becodeorg/GNT-Arai-2.31/blob/master/content/additional_resources/datasets/Wine%20Quality/wine.csv
 
 
 ## Mission objectives
