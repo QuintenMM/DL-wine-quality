@@ -25,16 +25,22 @@ First stepp taken in this assignment was understanding the data and use it witho
 
 Our first model had an accurcey score of 32% which is really bad. As you can see below the graps also don't look like they're supposed to.
 
+<img src="visuals/hmfrees.png" width="500"/>
+
 # version two
 Determining what the quality is out of a possible score of 10 might be a biy much for our model, so I made it easier. If the quality is above a 6 it counts as a good wine and if not it's a bad wine.
 
 Secondley I looked at the features to see if there was anything that could be used. A deep dive into the features revealed that "Free sulfur dioxide" had a high correlation in comparison to the other features, so I removed it.
+
+<img src="visuals/errorv2.png" width="500"/>
 
 With these changes I tried againg. Model accuracy score changed to 73%. This is a big improvement over the other score.
 
 After checking the graps it's clear that it's much better at predicting the right anwser but still it's not what we want yet.
 
 The confussion matrix gives a better vieuw of what is going on. It's obvious that the model is overfitting and thinks all the wine is bad.
+
+<img src="visuals/cmv2.png" width="500"/>  <img src="visuals/errorv2.png" width="500"/>
 
 # Version Three
 For this version I tried adding normalising, scaling, feature engeneering. These all had little to no effect and the problem of overfitting remained.Feature engeineering did't really work because relations between features is very low.
