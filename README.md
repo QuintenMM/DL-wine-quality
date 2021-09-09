@@ -41,33 +41,10 @@ For this version I tried adding normalising, scaling, feature engeneering. These
 
 There is also a descrepetency between the "good", and "bad" wines. there is a relation of 5:1 foor bad wines. To solve this I tried donw/upsampling but this also had no effect. This tells me that the relation of good and bad isn't the problem but the little relation between the features.
 
+With these changes the model had a small improvement and accuracy 79%. But as you can tell the model stil has an overfitting problemem.
 
 
 
 
 
-
-## Mission objectives
-
-- Use a deep learning library
-- Prepare a data set for a machine learning model
-- Put together a simple neural network
-- Tune parameters of a neural network
-
-
-- Define the problem as a classification problem
-- Define the problem as a regression problem
-- Feature engineering
-- Feature normalization
-- Resampling
-- Hyper-parameter tuning
-  - Change the learning rate
-  - Change the loss function
-  - etc...
-- Modify the architecture
-  - Number of layers
-  - Number of neurons per layer
-  - Activation functions
-  - etc...
-- etc...
 
