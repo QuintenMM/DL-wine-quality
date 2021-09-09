@@ -47,9 +47,22 @@ For this version I tried adding normalising, scaling, feature engeneering. These
 
 There is also a descrepetency between the "good", and "bad" wines. there is a relation of 5:1 foor bad wines. To solve this I tried donw/upsampling but this also had no effect. This tells me that the relation of good and bad isn't the problem but the little relation between the features.
 
+Testing different activator functions and changing epocs or layers also had very little influence.
+
 With these changes the model had a small improvement and accuracy 79%. But as you can tell the model stil has an overfitting problemem.
 
+# Conclusion
 
+Training a model with this dataset is not the easiest thing. The features don't have a huge relation to each other. The target "quality" is also tainted, the numbers have been given by 3 people who tested the wine and gave there point and the average of that is the quality. Since this is a subjective scooring the relation to the data isn't sure. This is also the thing that could be causing the difficulties.
+
+# Contributor
+| Name                   | Github                              |
+|------------------------|-------------------------------------|
+| Quinten Wildemeersch  | https://github.com/QuintenMM  |
+
+
+# Timeline
+07/09/2021 - 09/09/2021
 
 
 
