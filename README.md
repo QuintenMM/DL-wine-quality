@@ -42,6 +42,7 @@ The confussion matrix gives a better vieuw of what is going on. It's obvious tha
 
 <img src="visuals/cmv2.png" width="500"/>  <img src="visuals/errorv2.png" width="500"/>
 
+<img src="visuals/ttv2.png" width="500"/>
 # Version Three
 For this version I tried adding normalising, scaling, feature engeneering. These all had little to no effect and the problem of overfitting remained.Feature engeineering did't really work because relations between features is very low.
 
@@ -50,6 +51,8 @@ There is also a descrepetency between the "good", and "bad" wines. there is a re
 Testing different activator functions and changing epocs or layers also had very little influence.
 
 With these changes the model had a small improvement and accuracy 79%. But as you can tell the model stil has an overfitting problemem.
+
+<img src="visuals/cmv3.png" width="500"/>
 
 # Conclusion
 
